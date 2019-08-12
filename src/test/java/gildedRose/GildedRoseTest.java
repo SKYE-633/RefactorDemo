@@ -11,7 +11,7 @@ public class GildedRoseTest {
         GildedRose gildedRose = new GildedRose(items);
         gildedRose.updateQuality();
         //System.out.println(gildedRose.items[0]);
-        Assert.assertEquals("Aged Brie, 48, 2",gildedRose.items[0].toString());
+        Assert.assertEquals("Aged Brie, 48, 2", gildedRose.getItems()[0].toString());
     }
     @Test
     public void should_return_right_items_when_give_Aged_and_s_and_q_2(){
@@ -19,7 +19,7 @@ public class GildedRoseTest {
         GildedRose gildedRose = new GildedRose(items);
         gildedRose.updateQuality();
         //System.out.println(gildedRose.items[0]);
-        Assert.assertEquals("Aged Brie, 1, 50",gildedRose.items[0].toString());
+        Assert.assertEquals("Aged Brie, 1, 50", gildedRose.getItems()[0].toString());
     }
     @Test
     public void should_return_right_items_when_give_Back_and_s_and_q_1(){
@@ -27,7 +27,7 @@ public class GildedRoseTest {
         GildedRose gildedRose = new GildedRose(items);
         gildedRose.updateQuality();
         //System.out.println(gildedRose.items[0]);
-        Assert.assertEquals("Backstage passes to a TAFKAL80ETC concert, 4, 5",gildedRose.items[0].toString());
+        Assert.assertEquals("Backstage passes to a TAFKAL80ETC concert, 4, 5", gildedRose.getItems()[0].toString());
     }
     @Test
     public void should_return_right_items_when_give_Back_and_s_and_q_2(){
@@ -35,7 +35,7 @@ public class GildedRoseTest {
         GildedRose gildedRose = new GildedRose(items);
         gildedRose.updateQuality();
         //System.out.println(gildedRose.items[0]);
-        Assert.assertEquals("Backstage passes to a TAFKAL80ETC concert, 9, 49",gildedRose.items[0].toString());
+        Assert.assertEquals("Backstage passes to a TAFKAL80ETC concert, 9, 49", gildedRose.getItems()[0].toString());
 
     }
     @Test
@@ -44,7 +44,7 @@ public class GildedRoseTest {
         GildedRose gildedRose = new GildedRose(items);
         gildedRose.updateQuality();
         //System.out.println(gildedRose.items[0]);
-        Assert.assertEquals("Backstage passes to a TAFKAL80ETC concert, 11, 49",gildedRose.items[0].toString());
+        Assert.assertEquals("Backstage passes to a TAFKAL80ETC concert, 11, 49", gildedRose.getItems()[0].toString());
 
     }
     @Test
@@ -53,7 +53,7 @@ public class GildedRoseTest {
         GildedRose gildedRose = new GildedRose(items);
         gildedRose.updateQuality();
         //System.out.println(gildedRose.items[0]);
-        Assert.assertEquals("Backstage passes to a TAFKAL80ETC concert, 47, 49",gildedRose.items[0].toString());
+        Assert.assertEquals("Backstage passes to a TAFKAL80ETC concert, 47, 49", gildedRose.getItems()[0].toString());
 
     }
     @Test
@@ -62,7 +62,7 @@ public class GildedRoseTest {
         GildedRose gildedRose = new GildedRose(items);
         gildedRose.updateQuality();
         //System.out.println(gildedRose.items[0]);
-        Assert.assertEquals("Sulfuras, Hand of Ragnaros, 47, 2",gildedRose.items[0].toString());
+        Assert.assertEquals("Sulfuras, Hand of Ragnaros, 47, 2", gildedRose.getItems()[0].toString());
     }
     @Test
     public void should_return_right_items_when_give_Sulf_and_s_and_q_2(){
@@ -70,7 +70,7 @@ public class GildedRoseTest {
         GildedRose gildedRose = new GildedRose(items);
         gildedRose.updateQuality();
         //System.out.println(gildedRose.items[0]);
-        Assert.assertEquals("Sulfuras, Hand of Ragnaros, 12, 44",gildedRose.items[0].toString());
+        Assert.assertEquals("Sulfuras, Hand of Ragnaros, 12, 44", gildedRose.getItems()[0].toString());
     }
     @Test
     public void should_return_right_items_when_give_other_and_s_and_q_1(){
@@ -78,7 +78,7 @@ public class GildedRoseTest {
         GildedRose gildedRose = new GildedRose(items);
         gildedRose.updateQuality();
         //System.out.println(gildedRose.items[0]);
-        Assert.assertEquals("Skye, -1, 42",gildedRose.items[0].toString());
+        Assert.assertEquals("Skye, -1, 42", gildedRose.getItems()[0].toString());
     }
     @Test
     public void should_return_right_items_when_give_other_and_s_and_q_2(){
@@ -86,7 +86,7 @@ public class GildedRoseTest {
         GildedRose gildedRose = new GildedRose(items);
         gildedRose.updateQuality();
         //System.out.println(gildedRose.items[0]);
-        Assert.assertEquals("Skye, 1, 43",gildedRose.items[0].toString());
+        Assert.assertEquals("Skye, 1, 43", gildedRose.getItems()[0].toString());
     }
     @Test
     public void should_return_right_items_when_give_back_and_s_and_q_5(){
@@ -94,7 +94,7 @@ public class GildedRoseTest {
         GildedRose gildedRose = new GildedRose(items);
         gildedRose.updateQuality();
         //System.out.println(gildedRose.items[0]);
-        Assert.assertEquals("Backstage passes to a TAFKAL80ETC concert, -1, 0",gildedRose.items[0].toString());
+        Assert.assertEquals("Backstage passes to a TAFKAL80ETC concert, -1, 0", gildedRose.getItems()[0].toString());
     }
 
 
