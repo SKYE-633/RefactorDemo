@@ -11,8 +11,7 @@ public class GildedRoseTest {
         GildedRose gildedRose = new GildedRose(items);
         gildedRose.updateQuality();
         //System.out.println(gildedRose.items[0]);
-        Assert.assertEquals("Aged Brie",48,48);
-        Assert.assertEquals("Aged Brie",2,2);
+        Assert.assertEquals("Aged Brie, 47, 3",gildedRose.items[0].toString());
     }
     @Test
     public void should_return_right_items_when_give_Aged_and_s_and_q_2(){
@@ -20,8 +19,7 @@ public class GildedRoseTest {
         GildedRose gildedRose = new GildedRose(items);
         gildedRose.updateQuality();
         //System.out.println(gildedRose.items[0]);
-        Assert.assertEquals("Aged Brie",1,1);
-        Assert.assertEquals("Aged Brie",50,50);
+        Assert.assertEquals("Aged Brie, 0, 50",gildedRose.items[0].toString());
     }
     @Test
     public void should_return_right_items_when_give_Back_and_s_and_q_1(){
@@ -29,8 +27,7 @@ public class GildedRoseTest {
         GildedRose gildedRose = new GildedRose(items);
         gildedRose.updateQuality();
         //System.out.println(gildedRose.items[0]);
-        Assert.assertEquals("Backstage passes to a TAFKAL80ETC concert",4,4);
-        Assert.assertEquals("Backstage passes to a TAFKAL80ETC concert",5,5);
+        Assert.assertEquals("Backstage passes to a TAFKAL80ETC concert, 4, 5",gildedRose.items[0].toString());
     }
     @Test
     public void should_return_right_items_when_give_Back_and_s_and_q_2(){
@@ -38,8 +35,8 @@ public class GildedRoseTest {
         GildedRose gildedRose = new GildedRose(items);
         gildedRose.updateQuality();
         //System.out.println(gildedRose.items[0]);
-        Assert.assertEquals("Backstage passes to a TAFKAL80ETC concert",9,9);
-        Assert.assertEquals("Backstage passes to a TAFKAL80ETC concert",50,50);
+        Assert.assertEquals("Backstage passes to a TAFKAL80ETC concert, 9, 50",gildedRose.items[0].toString());
+
     }
     @Test
     public void should_return_right_items_when_give_Back_and_s_and_q_3(){
@@ -47,8 +44,8 @@ public class GildedRoseTest {
         GildedRose gildedRose = new GildedRose(items);
         gildedRose.updateQuality();
         //System.out.println(gildedRose.items[0]);
-        Assert.assertEquals("Backstage passes to a TAFKAL80ETC concert",11,11);
-        Assert.assertEquals("Backstage passes to a TAFKAL80ETC concert",49,49);
+        Assert.assertEquals("Backstage passes to a TAFKAL80ETC concert, 11, 49",gildedRose.items[0].toString());
+
     }
     @Test
     public void should_return_right_items_when_give_Back_and_s_and_q_4(){
@@ -56,8 +53,8 @@ public class GildedRoseTest {
         GildedRose gildedRose = new GildedRose(items);
         gildedRose.updateQuality();
         //System.out.println(gildedRose.items[0]);
-        Assert.assertEquals("Backstage passes to a TAFKAL80ETC concert",47,47);
-        Assert.assertEquals("Backstage passes to a TAFKAL80ETC concert",49,49);
+        Assert.assertEquals("Backstage passes to a TAFKAL80ETC concert, 47, 49",gildedRose.items[0].toString());
+
     }
     @Test
     public void should_return_right_items_when_give_Sulf_and_s_and_q_1(){
@@ -65,8 +62,7 @@ public class GildedRoseTest {
         GildedRose gildedRose = new GildedRose(items);
         gildedRose.updateQuality();
         //System.out.println(gildedRose.items[0]);
-        Assert.assertEquals("Sulfuras, Hand of Ragnaros",47,47);
-        Assert.assertEquals("Sulfuras, Hand of Ragnaros",2,2);
+        Assert.assertEquals("Sulfuras, Hand of Ragnaros, 47, 2",gildedRose.items[0].toString());
     }
     @Test
     public void should_return_right_items_when_give_Sulf_and_s_and_q_2(){
@@ -74,8 +70,7 @@ public class GildedRoseTest {
         GildedRose gildedRose = new GildedRose(items);
         gildedRose.updateQuality();
         //System.out.println(gildedRose.items[0]);
-        Assert.assertEquals("Sulfuras, Hand of Ragnaros",12,12);
-        Assert.assertEquals("Sulfuras, Hand of Ragnaros",44,44);
+        Assert.assertEquals("Sulfuras, Hand of Ragnaros, 12, 44",gildedRose.items[0].toString());
     }
 
 }
