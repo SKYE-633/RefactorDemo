@@ -12,7 +12,7 @@ public class GildedRose {
 
             if (items[i].name.equals("Aged Brie")) {
                 keepAgedBrie(items[i]);
-
+                continue;
             }
 
             if (!items[i].name.equals("Aged Brie")
