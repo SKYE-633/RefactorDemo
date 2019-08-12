@@ -3,11 +3,11 @@ package gildedRose;
 public class OtherStrategy implements Strategy {
     @Override
     public void update(Item item) {
-        if(item.sellIn < 1){
-            item.quality = Math.max(item.quality-2,0);
+        if(item.getSellIn() < 1){
+            item.setQuality(Math.max(item.getQuality() - 2, 0));
         }else{
-            item.quality = Math.max(item.quality-1,0);
+            item.setQuality(Math.max(item.getQuality() - 1, 0));
         }
-        item.sellIn--;
+        item.setSellIn(item.getSellIn()-1);
     }
 }

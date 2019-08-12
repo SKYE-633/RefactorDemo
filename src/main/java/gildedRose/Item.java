@@ -5,7 +5,7 @@ public class Item {
     public static final String BACK = "Backstage passes to a TAFKAL80ETC concert";
     public static final String SULFUR = "Sulfuras, Hand of Ragnaros";
 
-    public String name;
+    private String name;
 
     public String getName() {
         return name;
@@ -31,9 +31,9 @@ public class Item {
         this.quality = quality;
     }
 
-    public int sellIn;
+    private int sellIn;
 
-    public int quality;
+    private int quality;
 
     private Strategy strategy;
 
