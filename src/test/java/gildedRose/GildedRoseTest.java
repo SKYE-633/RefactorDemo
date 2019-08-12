@@ -1,3 +1,4 @@
+
 package gildedRose;
 
 import org.junit.Assert;
@@ -78,3 +79,4 @@ public class GildedRoseTest {
     }
 
 }
+
